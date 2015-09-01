@@ -1,0 +1,320 @@
+/* Add font */
+@font-face {
+  font-family: "Future Book"; 
+  src: url('fonts/futubk.eot');
+  src: url('fonts/futubk.eot?#iefix') format('embedded-opentype'),
+  url('fonts/futubk.woff') format('woff'),
+  url('fonts/futubk.ttf') format('truetype'),
+  url('fonts/futubk.svg#futubk') format('svg');
+  font-weight: normal;
+  font-style: normal; 
+}
+
+/*****************************************************************************************/
+
+.subpage
+{
+margin-top:0%;
+margin-left:0%;
+margin-bottom:0%;
+margin-right:0%;
+background-image:url('mumbai.jpg');
+background-repeat:no-repeat;
+background-size:100% 100%;
+background-attachment:fixed;
+}
+
+.content{
+position:fixed;
+background-color:black;
+opacity:.85	;
+left:10%;
+height: 100%;
+width: 77%;
+background-attachment:scroll;
+}
+
+.main{
+background-color:rgba(255,255,255,0.15);
+height: 520px;
+width: 200px;
+padding-top:0px;
+padding-bottom:10px;
+padding-right:10px;
+padding-left:10px;
+}
+
+.eventtag{
+position:relative;
+height: 3%;
+top:0%;
+line-height: 1;
+margin:0px;
+width: 100%;
+overflow: hidden;
+}
+
+.eventtaginside{
+position:relative;
+height: 100%;
+top:0%;
+line-height: 1;
+margin:0px;
+float: right;
+overflow: hidden;
+}
+
+.name{
+position:relative;
+top:0px;
+height: 9%;
+width: 100%;
+overflow: hidden;
+}
+
+.primary{
+top:0%;
+margin:0px;
+position:relative;
+height: 13%;
+width: 100%;
+overflow: hidden;
+}
+
+.secondary{
+position:relative;
+margin:0px;
+height: 18%;
+width: 100%;
+overflow: hidden;
+}
+
+.tag{
+margin:0px;
+position:relative;
+height: 9%;
+width: 100%;
+overflow: hidden;
+}
+
+.picture{
+margin:0px;
+position:relative;
+height: 37%;
+width: 100%;
+overflow: hidden;
+}
+
+.link1{
+margin:0px;
+position:relative;
+height: 10%;
+width: 100%;
+overflow: hidden;
+}
+
+.link2{
+margin:0px;
+position:relative;
+height: 3%;
+width: 100%;
+overflow: hidden;
+}
+
+
+.secondary p{
+color: white;
+font-size:15px;
+font-family: "Future Book", Helevtica, Verdana, san-serif;
+position:relative;
+margin: 0;
+}
+
+.name h3{
+color: white;
+font-size:20px;
+font-family: "Future Book", Helevtica, Verdana, san-serif;
+position:relative;
+text-align: center;
+margin: 0;
+line-height:90%;
+}
+
+.eventtaginside p{
+text-align:right;
+color: white;
+font-size:11px;
+font-family: Helevtica, Verdana, san-serif;
+margin: 0;
+text-align: center;
+font-weight:bold;
+background-color:rgba(0,61,275,0.7);
+}
+
+.primary h2{
+color: white;
+font-weight:bold;
+display: inline;
+font-size:16px;
+font-family: "Future Book", Helevtica, Verdana, san-serif;
+position:relative;
+line-height:100%;
+margin: 0;
+}
+
+.primary h3{
+color: white;
+display: inline;
+font-size:14px;
+font-family: "Future Book", Helevtica, Verdana, san-serif;
+position:relative;
+line-height:100%;
+margin: 0;
+}
+.tag p{
+color: white;
+font-size:10px;
+font-family: Helevtica, Verdana, san-serif;
+position:relative;
+margin: 0;
+}
+
+.link1 p{
+color: white;
+font-size:12px;
+font-family: Helevtica, Verdana, san-serif;
+position:relative;
+margin: 0;
+}
+
+.link2 p{
+color: white;
+font-size:12px;
+font-family: Helevtica, Verdana, san-serif;
+position:relative;
+margin: 0;
+}
+
+#logo{	
+position:absolute;
+top:15%;
+left: 15%;
+height: 80px;
+width: 350px;
+background-image:url('logo.png');
+background-repeat:no-repeat;
+background-size:100% 100%;
+}
+
+#form{
+position:absolute;
+left:51%;
+top:23%;
+height: 80px;
+width: 500px;
+line-height:90%;
+}
+
+#area{
+background-color: black;
+color: white;
+font-size:18px;
+font-family: "Future Book", Helevtica, Verdana, san-serif;
+padding: 5px;
+border-style:none;
+width:250px;
+}
+
+h2{
+color: white;
+font-size:20px;
+font-family: "Future Book", Helevtica, Verdana, san-serif;
+position:relative;
+}
+
+h3{
+color: white;
+font-size:18px;
+font-family: "Future Book", Helevtica, Verdana, san-serif;
+position:relative;
+}
+
+p{
+color: white;
+font-size:14px;
+font-family: "Future Book", Helevtica, Verdana, san-serif;
+position:relative;
+}
+
+.button{
+display: block;
+background-color:transparent;
+background-image:url('images/button.png');
+background-repeat:no-repeat;
+background-position: right top;
+float: center;
+cursor:pointer;
+border:none; 
+height: 60px; 
+width: 260px; 
+background-repeat:no-repeat;
+background-size:100% 100%;
+position:relative;
+color: white;
+font-size:24px;
+font-family: "Future Book", Helevtica, Verdana, san-serif;
+}
+
+#logo2{	
+position:absolute;
+top:2%;
+left: 13%;
+height: 70px;
+width: 330px;
+background-image:url('logo.png');
+background-repeat:no-repeat;
+background-size:100% 100%;
+}
+
+#form2{	
+position:absolute;
+top:13%;
+left: 15%;
+height: 500px;
+width: 900px;
+}
+
+a{
+color: white;
+}
+
+.footer
+{
+position:absolute;
+top:92%;
+width:100%;
+}
+
+a.footer
+{
+text-decoration:none;
+}
+
+.title{
+position:absolute;
+top:4%;
+left:40%;
+right:17%;
+width: 45%;
+float:right;
+height: 70px;
+text-align:right;
+}
+
+h2.title{
+color: white;
+font-size:17px;
+font-family: "Future Book", Helevtica, Verdana, san-serif;
+position:relative;
+
+}
